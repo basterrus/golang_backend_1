@@ -136,7 +136,7 @@ func main() {
 }
 
 func after(value string, a string) string {
-	// Get substring after a string.
+
 	pos := strings.LastIndex(value, a)
 	if pos == -1 {
 		return ""
